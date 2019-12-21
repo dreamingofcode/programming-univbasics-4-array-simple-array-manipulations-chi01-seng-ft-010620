@@ -27,36 +27,36 @@ end
 
 
 def shift_with_args(array)
-  new_shift_args=array.shift(2)
+  new_shift_args=array.shift(2)  #removes the first 2 items of array.
   p new_shift_args
 end
 
 
 def using_concat(array1,array2)
-  array1.concat(array2)
+  array1.concat(array2)  #adds the contents of second array to the first.
 end
 
 
 def using_insert(array,new)
-  array.insert(4,new)  #add new element into 4th index of array
+  array.insert(4,new)  #add new element into 4th index of array.
 end
 
 
 
 def using_uniq(array)
-  array.uniq  #removes any duplicate items/elements
+  array.uniq  #removes any duplicate items/elements.
 end
 
 
 def using_flatten(array)
-  array.flatten  #returns an array of string which initially was array of arrays
+  array.flatten  #returns an array of string which initially was array of arrays.
 end
 
 
 def using_delete(array,string)
-  array.delete(string)
+  array.delete(string) #deletes the given element using its string.
 end
 
 def using_delete_at(array,integer)
-  array.delete_at(integer)
+  array.delete_at(integer)   #deletes the element at given index
 end
