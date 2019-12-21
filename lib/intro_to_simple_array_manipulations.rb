@@ -15,13 +15,13 @@ end
 
 
 def pop_with_args(array)
-  new1=array.pop(2)
+  new1=array.pop(2)   #removes last 2 items of array.
   p new1
 end
 
 
 def using_shift(array)
-  new_shifted=array.shift
+  new_shifted=array.shift #removes first item of the array.
   p new_shifted
 end
 
